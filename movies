@@ -1,0 +1,38 @@
+
+
+-- DROP TABLE Director;
+CREATE TABLE Director(
+DirectorName varchar(30) NOT NULL
+);
+
+
+-- DROP TABLE Movie;
+CREATE TABLE Movie (
+MovieTitle varchar (30) NOT NULL,
+ReleaseDate DATE NOT NULL,
+);
+
+
+INSERT INTO Director VALUES 
+					('Zack Snyder'),
+					('Tim Miller'),
+					('James Wan'),
+					('Rajkumar Hirani'),
+					('Ridley Scott'),
+					('Todd Phillips'),
+					('Sam Mendes'),
+					('Christopher Nolan');
+
+INSERT INTO Movie VALUES 
+    				('Superman vs Batman', '2016-03-25'),
+    				('Deadpool', '2016-02-12'),
+    				('Furious 7', '2015-04-03'),
+    				('PK', '2014-12-19'),
+    				('Gladiator', '2000-05-05'),
+    				('The Hangover', '2009-06-05'),
+    				('3 Idiots', '2009-12-25'),
+    				('Spectre', '2015-11-06'),
+    				('Batman Begins', '2005-06-15'),
+    				('The Dark Knight', '2008-07-18');
+
+SELECT * FROm Movie;
