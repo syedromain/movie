@@ -12,7 +12,6 @@ MovieTitle varchar (30) NOT NULL,
 ReleaseDate DATE NOT NULL,
 );
 
-
 INSERT INTO Director VALUES 
 					('Zack Snyder'),
 					('Tim Miller'),
